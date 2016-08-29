@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
-        setSupportActionBar(mBinding.toolbar);
+        setSupportActionBar(mBinding.mainToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         new GraphRequest(

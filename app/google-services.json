@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "78223101647",
+    "firebase_url": "https://share-f5129.firebaseio.com",
+    "project_id": "share-f5129",
+    "storage_bucket": "share-f5129.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78223101647:android:69cac2bd9475bced",
+        "android_client_info": {
+          "package_name": "com.khmer.share"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78223101647-odud2nbfnjc45i5g2b3a7enqfch12nqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3A4b7x8XpMiDQi4sq9luN0Tkjw9RNmdA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

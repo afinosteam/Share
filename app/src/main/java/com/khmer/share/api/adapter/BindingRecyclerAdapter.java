@@ -28,7 +28,8 @@ public class BindingRecyclerAdapter<T> extends BaseRecyclerAdapter<T, BindingRec
     public BindingViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         if (mInflater == null)
             mInflater = LayoutInflater.from(parent.getContext());
-        return new BindingViewHolder(DataBindingUtil.inflate(mInflater, viewType, parent, false));
+        ViewDataBinding binding = DataBindingUtil.inflate(mInflater, viewType, parent, false);
+        return new BindingViewHolder(binding);
     }
 
     @Override

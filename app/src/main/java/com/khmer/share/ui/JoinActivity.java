@@ -54,7 +54,7 @@ public class JoinActivity extends AppCompatActivity {
         };
 
         mCallbackManager = CallbackManager.Factory.create();
-        mBinding.facebookLogin.setReadPermissions("email", "public_profile");
+        mBinding.facebookLogin.setReadPermissions("email", "public_profile", "user_friends");
         mBinding.facebookLogin.registerCallback(mCallbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {

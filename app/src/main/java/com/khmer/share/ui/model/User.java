@@ -50,28 +50,29 @@ public class User {
     public void setPicture(UserPicture picture) {
         this.picture = picture;
     }
-}
 
-class UserPicture {
-    private Data data;
 
-    public Data getData() {
-        return data;
+    public static class UserPicture {
+        private Data data;
+
+        public Data getData() {
+            return data;
+        }
+
+        public void setData(Data data) {
+            this.data = data;
+        }
     }
 
-    public void setData(Data data) {
-        this.data = data;
-    }
-}
+    public static class Data {
+        private String url;
 
-class Data {
-    private String url;
+        public String getUrl() {
+            return url;
+        }
 
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
+        public void setUrl(String url) {
+            this.url = url;
+        }
     }
 }
